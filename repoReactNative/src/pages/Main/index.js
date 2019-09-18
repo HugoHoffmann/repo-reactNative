@@ -87,7 +87,7 @@ export default class Main extends Component {
           <Input
             autoCorrect={false}
             autoCapitalize="none"
-            placeHolder="user/repo"
+            placeholder="user/repo"
             value={newUser}
             onChangeText={ text => this.setState({ newUser: text }) }
             returnKeyType="send"
